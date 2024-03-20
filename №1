@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    // Вивід привітання та пояснення для користувача
+    printf("Привіт! Ця програма обчислить залишок від ділення та інші операції з двома числами.\n");
+    
+    // Оголошення змінних
+    int number1, number2, remainder, difference, sum_numbers;
+    
+    // Зчитування введених користувачем чисел
+    printf("Введіть перше ціле число: ");
+    scanf("%d", &number1);
+    printf("Введіть друге ціле число: ");
+    scanf("%d", &number2);
+    
+    // Обчислення залишку, різниці та суми
+    remainder = number1 % number2;
+    difference = number2 - number1;
+    sum_numbers = number1 + number2;
+    
+    // Виведення результатів
+    printf("Залишок від ділення першого числа на друге: %d\n", remainder);
+    printf("Різниця між другим і першим числами: %d\n", difference);
+    printf("Сума чисел: %d\n", sum_numbers);
+    
+    return 0;
+}
