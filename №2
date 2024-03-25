@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a = 15, b = -2, c = 3;
+    const int a = 15, b = -2, c = 3;
     double y;
 
     // Обчислення значення функції
